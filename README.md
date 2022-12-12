@@ -1,1 +1,2 @@
 # IOT-in-Vehicular-Networks
+The project connects ADXL345 and DHT11 sensor to ESP8266 NodeMCU and collects temperature and acceleration data in 3 directions. The data is displayed on a LCD Display. The circuit also has a provision for a LED to turn on once the temperature crosses a certain value. The data is also displayed on an AdaFruit Dashboard. The system is also connected to Amazon AWS IoT Core which makes a DynamoDB which stores the data for future analytics
